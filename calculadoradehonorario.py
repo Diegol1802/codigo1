@@ -1,3 +1,4 @@
+# Monto
 monto = int(input("Ingrese el monto: "))
 
 # Crear lista de años
@@ -21,10 +22,10 @@ if anio_seleccionado in anios:
 else:
     print("El año ingresado no está en la lista.")
 
-# CALCULO PORCENTAJE
+# Calcular porcentaje
 porcentajeparacalculo = (100 - porcentaje_seleccionado) / 100
 
-# LIQUIDO
+# Liquido
 print("liquido Hacer boleta")
 hacerboletaliquido=int(monto/porcentajeparacalculo)
 print(hacerboletaliquido)
@@ -35,7 +36,7 @@ print("liquido Retencion Sii")
 retencionliquido=int(hacerboletaliquido-monto)
 print(retencionliquido)
 
-# BRUTO
+# Bruto
 print("bruto Hacer boleta")
 hacerboletabruto=int(monto)
 print(hacerboletabruto)
